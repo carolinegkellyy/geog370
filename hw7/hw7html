@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>...</head> 
+        <body>
+            <h1>Homework 7: Electric Vehicle/Hybrid Vehicle Registration across Europe</h1> 
+            <h2> By Caroline Kelly </h2> 
+            <h3>I present a EV/Hybrid car map since I'm an Environmental Studies major 
+                who's interested energy consumption across nation's. There's a very high EV/Hybrid rate 
+                per capita within Europe, one of the largest in the world. I wanted to compare nation's 
+                in Europe and draw potential conclusions into why some nations have far more EV/Hybrid 
+                registrations than others. Electrification of vehicles is a crucial step in combatting climate 
+                change since there are zero net tailpipe emmissions of harmful air pollutants, like nitrogen
+                oxide. In many ways, Europe can act as a blue print for a future economic shift within the 
+                United States from gas consuming vehicles to more electrified ones. The data used for this project
+                was collected from EuroStat.
+                </h3> 
+            <a href="./EV_Hybrid Print Layer.png"><h1>Map Print Layer</h1></a>
+            <a href="./csv/ev-countrydata4.csv"><h2>Cleaned CSV used to join to the map</h2></a>
+            <a href="./shapefiles/EuropeGeoJSON.qmd"><h2>GeoJSON for Europe & surrounding territories</h2></a>
+
+        
