@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <title>DEP.SL_WOODSTORK_2010_SP</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Florida wood stork nesting colony locations. Please contact GIS.Librarian@floridadep.gov for more information.  </abstract>
+            <purpose>This data set was developed for use by U. S. Fish and Wildlife Service staff to construct a graphic representation of the wood stork nesting colony locations in the State of Florida as described by various surveys.</purpose>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-180</westbc>
+                <eastbc>180</eastbc>
+                <northbc>90</northbc>
+                <southbc>-90</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>USFWC</themekey>
+                <themekey>Wood Stork</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Florida</placekey>
+            </place>
+        </keywords>
+        <accconst>Currently used in the SelfCert application only.</accconst>
+        <useconst>This data set was constructed for use by the U.S. Fish and Wildlife Service. The U.S. Fish and Wildlife Service shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistently within the limitations of data in general and these data in particular.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>US Fish &amp; Wildlife Service</cntorg>
+                    <cntper>Billy Brooks</cntper>
+                </cntorgp>
+                <cntemail>Billy_Brooks@fws.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>USFWS</datacred>
+        <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>104</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DEP.SL_WOODSTORK_2010_SP</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>STATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LATITUDE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LONGITUDE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GEOMETRY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20150915</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>MS 6520</address>
+                    <address>2600 Blair Stone Rd</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

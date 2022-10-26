@@ -1,0 +1,2594 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20010101</pubdate>
+                <title>Brownfield Areas</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://publicfiles.dep.state.fl.us/otis/gis/data/BROWNFIELD_AREAS.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Brownfields are defined by the Florida Department of Environmental Protection (FDEP) as abandoned, idled, or underused industrial and commercial facilities where expansion or redevelopment is complicated by real or perceived environmental contamination. The primary goals of Florida's Brownfields Redevelopment Act (Ch. 97-277, Laws of Florida, codified at ss. 376.77-.85, F.S.) are to reduce health and environmental hazards on existing commercial and industrial sites that are abandoned or underused due to these hazards and create financial and regulatory incentives to encourage redevelopment and voluntary cleanup of contaminated properties. A 'brownfield area' means a contiguous area of one or more brownfield sites, some of which may not be contaminated, that has been designated as such by a local government resolution. Such areas may include all or portions of community redevelopment areas, enterprise zones, empowerment zones, other such designated economically deprived communities and areas, and Environmental Protection Agency (EPA) designated brownfield pilot projects. This layer provides a polygon representation of the boundaries of these designated Brownfield Areas in Florida.</abstract>
+            <purpose>Brownfields data is provided to assist in the determination of areas with potential for economic revitalization.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20211204</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Date data was last updated in the GIS library</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.299293</westbc>
+                <eastbc>-79.885944</eastbc>
+                <northbc>31.03501</northbc>
+                <southbc>24.660477</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Brownfields</themekey>
+                <themekey>Planning and Development</themekey>
+                <themekey>Redevelopment</themekey>
+                <themekey>Waste Cleanup</themekey>
+                <themekey>Economic Revitalization</themekey>
+                <themekey>Remediation</themekey>
+                <themekey>Incentives</themekey>
+                <themekey>Environmental Monitoring and Modeling</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>environment</themekey>
+                <themekey>planningCadastre</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Florida</placekey>
+            </place>
+        </keywords>
+        <accconst>The MapDirect Brownfields focus is a publicly accessible tool for viewing, searching and analyzing geographic data of Brownfield real estate in Florida within an internet browser. MapDirect allows you to search hundreds of Florida Brownfields based on various selection criteria and provides the opportunity to encourage the use and reuse of these sites as sources of employment, housing, recreation and open-space areas by providing links to the scanned documentation associated with the BSRA's execution as well as access information on financial incentives, liability protection, and other redevelopment expertise. Visit the site at https://ca.dep.state.fl.us/mapdirect/?webmap=3af7363bd2864ea2ad3ea60fb0d85284 for more information. For more information on this initiative or general information on the Florida Brownfields Redevelopment Program call 850-245-8934 or the specific Brownfields Coordinator for the FDEP District in which the site resides.</accconst>
+        <useconst>Because a variety of sources and methods were used to derive information for this data, the quality of the linework may vary accordingly. This data is intended to be used for general locational representation and should not be considered appropriate for legal and/or cadastral purposes.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (DEP), Division of Waste Management, Brownfields and CERCLA Administration</cntorg>
+                    <cntper>Kelly Crain</cntper>
+                </cntorgp>
+                <cntpos>Environmental Manager</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>850-245-8953</cntvoice>
+                <cntemail>Kelly.Crain@FloridaDEP.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Florida Department of Environmental Protection (DEP), Division of Waste Management, BWC</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <dataqual>
+        <logic>This layer provides a polygon representation of the boundaries of designated Brownfield Areas within Florida where a resolution has been passed by a local municipality. These polygons were created using various methodologies for creating digital spatial data depending upon the type of information provided by the municipality within the resolution and loosely dependent upon the cadastral (parcel) boundaries provided by the County Property Appraisers at the time when the spatial boundaries were developed. Since the data quality of the cadastral layer varies from county to county, the data quality of the brownfield area polygons will also vary. These methodologies include the following list: Coordinate Geometry (COGO) created from legal descriptions of the area specified in the resolution. Many of the brownfields include a large area with hundreds of property parcels. These boundaries were compared with the most recent cadastral boundaries available from the County Property Appraiser and spatially adjusted where necessary to clearly include the property parcels marked for redevelopment, the roadway right of way areas (where applicable), city boundaries, political boundaries, and other economic incentive zones. Shapefiles, Coverages and CADD files of the area were provided by the local municipality or planning and development agencies in some cases. These shapefiles were used without modification to the geometry to match cadastral boundaries. Coverages and CADD files were converted to a format compatible with the process software. Paper Maps showing the scaled boundaries of the area in relation to property parcels, geographic landmarks, and land surveys are sometimes included in the resolution. These maps are compared to available GIS boundaries in order to locate the specific property parcels referenced. The available cadastral boundaries are used to represent the area where only paper maps or parcel folio numbers are provided.</logic>
+        <lineage>
+            <procstep>
+                <procdesc>This update consists of 531 designated Brownfield Areas. 
+
+This update includes 2 New Areas:
+
+New Areas:    
+
+Interbay Redevelopment Area (BF132101000) in Hillsborough County, Acreage = 26.071804
+
+Carroll Investment Largo Brownfield Area (BF522103000) in Pinellas County, Acreage = 8.269116
+
+
+These new Brownfield Areas added 34.34092 acres.</procdesc>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP, Division of Waste Management, Brownfields and CERCLA Administration</cntorg>
+                            <cntper>Ginger Shirah</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8899</cntvoice>
+                        <cntemail>Ginger.K.Shirah@FloridaDEP.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer updated from shapefile submitted by Billy McClain BWC Office Automation Specialist II, and consists of 368 designated Brownfield Areas. This update includes 4 New Areas, 1 Amended Area, New Areas: Orlando Economic Enhancement District-Hoffner Avenue (BF481401000) in Orange County, Acreage = 8.206955. City of Miami Parks (BF131402000) in Dade County, Acreage = 39.550748. Gerdau Ameristeel Brownfield Area (BF161402000) in Duval County, Acreage = 149.275045. L&amp;M Griffin Properties #3 Brownfield Area (BF161403000) in Duval County, Acreage = 3.524462. These New Brownfield Areas added 200.55721 acres. Area Amended: Former DeLand Country Club Economic Enhancement Area (BF641301000) in Volusia County, Original Acreage = 107.401776, and the expansion subtracted 4.022506, for a total of 103.37927.</procdesc>
+                <procdate>20141103</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer updated and now consists of 373 designated Brownfield Areas. This update includes 5 New Areas: Peoples Gas System-North Channelside Drive (BF291406000) in Hillsborough County, Acreage = 7.305751. Rucks Park Site (BF131403000) in Dade County, Acreage = 6.642368. Former Countryside Executive Golf Course (BF521401000) in Pinellas County, Acreage = 44.283372. Spruce Street Landfill #2 (BF291405000) in Hillsborough County, Acreage = 3.424808. South Miami Plaza Preservation Site (BF131303000) in Dade County, Acreage = 2.432512. These New Brownfield Areas added 64.088811 acres.</procdesc>
+                <procdate>20150206</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DWM and updated the same in the GIS library</procdesc>
+                <procdate>20150206</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20150728</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer updated from shapefile submitted by DWM and consists of 376 designated Brownfield Areas. This update includes 3 New Areas, and 1 Expansion: New Brownfield Areas: Airport Road Brownfield Area (BF081501000) in Charlotte County, Acreage = 8.827273. Former Servico Landfill Brownfield Area (BF501501000) in Palm Beach County, Acreage = 8.943938. Orange City Brownfield Area (BF641501000) in Volusia County, Acreage = 687.043095. These New Brownfield Areas added 704.814306 acres. Brownfield Areas Expansion: Ulmerton Road Opportunity Corridor (UROC) Area-Wide Brownfield Expansion (BF521202000) in Pinellas County, Original Acreage = 2564.51786, and the expansion added 11803.98532, for a total of 14368.50318. This Brownfield Areas Expansion added 11803.98532 acres.</procdesc>
+                <procdate>20150728</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blairstone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer updated and consists of 379 designated Brownfield Areas.
+
+This update includes 3 New Areas, and 1 Expansion:
+
+New Brownfield Areas:
+The TKG Oviedo Development Brownfield Area (BF591501000) in Seminole County, Acreage = 10.005327.
+Coral Springs Revitalization Zone (BF061501000) in Broward County, Acreage = 6.038781
+Former Arab Pest Control Brownfield Area (BF521501000) in Pinellas County, Acreage = 0.424745.
+
+These New Brownfield Areas added 16.468853 acres.</procdesc>
+                <procdate>20151030</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20151102</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer updated and consists of 390 designated Brownfield Areas. 
+
+New Areas: 
+27th Avenue Corridor Greenpowerment Zone (BF131304000) in Miami-Dade County, Acreage = 46.214275.
+Delray Beach Brownfield Area (BF501502000) in Palm Beach County, Acreage = 6.745309. 
+Orlando Economic Enhancement District - T.C. Two Colonial (BF481502000) in Orange County, Acreage = 0.573822.
+Former Amazon Hose Property (BF291501000) in Hillsborough County, Acreage = 2.279286.
+El Portal NE 83rd St. Green Reuse Area (BF131503000) in Miami-Dade County, Acreage = 1.921078.
+GENE: ROCC (Redeveloping Orange County Communities) (BF481501000) in Orange County, Acreage = 46.397824.
+Doral Legacy Park Green Reuse Area (BF131502000) in Miami-Dade County, Acreage = 19.55376
+Taylor Park Green Reuse Area (BF131501000) in Miami-Dade County, Acreage = 21.878668.
+Northwest Gardens V Brownfield Area (BF061502000) in Broward County, Acreage = 5.865749.
+590 Beautyrest Ave. (BF161501000) in Duval County, Acreage = 4.895189.
+I-10 and SR59 Brownfield Area (BF331501000) in Jefferson County, Acreage = 599.064727.
+
+These New Brownfield Areas added 755.389687 acres.</procdesc>
+                <procdate>20160112</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Obtained updated data from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20160113</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer updated in the GIS library from shapefile submitted by Billy McClain BWC Office Automation Specialist II, and consists of 395 designated Brownfield Areas. 
+
+New Areas: 
+Former Palm Aire Golf Course Phase 2A Area (BF061601000) in Broward County, Acreage = 9.987364.
+Wal-Mart Tampa (Hillsborough) BF291307000 in Hillsborough County, Acreage = 10.7326.
+Apopka Community Redevelopment Area (BF481601000) in Orange County, Acreage = 629.789059.
+Boynton Beach Community Redevelopment Area (BF500903000) in Palm Beach County, Acreage = 293.405377.
+Former Palm Aire Golf Course (BF061503000) in Broward County, Acreage = 26.838065.
+
+These New Brownfield Areas added 970.752465 acres.</procdesc>
+                <procdate>20160401</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library, and this update consists of 400 designated Brownfield Areas. 
+
+This update includes 5 New Areas:
+
+New Areas: 
+Blue Brandon Palms Green Reuse Area (BF291601000) in Hillsborough County, Acreage = 6.275404.
+Wisdom Village Crossing LP Brownfield Area (BF061602000) in Broward County, Acreage = 0.800634.
+NW 62nd St Passive Park Green Reuse Area (BF131601000) in Miami-Dade County, Acreage = 5.018332.
+Bruner Road Parcel Cleanup Project (BF641601000) in Volusia County, Acreage = 17.704768.
+South Monroe St Corridor Brownfields Area (BF371601000) in Leon County, Acreage = 237.516656.
+
+These New Brownfield Areas added 267.315794 acres.</procdesc>
+                <procdate>20160701</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20160705</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 406 designated Brownfield Areas. 
+
+This update includes 6 New Areas:
+
+New Areas: 
+Burlington Post Brownfield Area (BF521603000) in Pinellas County, Acreage = 2.16945.
+Burlington Place Brownfield Area (BF521602000) in Pinellas County, Acreage = 1.013519.
+Lantana Square Green Reuse Area (BF501601000) in Palm Beach County, Acreage = 9.652233.
+East Hanna Ave Brownfield Area (BF291502000) in Hillsborough County, Acreage = 11.113892.
+5811 Williamson Blvd (BF641602000) in Volusia County, Acreage = 7.135755.
+Former Zero Corp Brownfield Area (BF521601000) in Pinellas County, Acreage = 3.077057.
+
+These New Brownfield Areas added 34.161906 acres.</procdesc>
+                <procdate>20161013</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20161014</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 412 designated Brownfield Areas. 
+This update includes 6 New Areas: 
+
+New Brownfield Areas:
+Former Melting Pot Green Reuse Area (BF131603000) in Dade County, Acreage = 0.615182.
+OEP Universal Boulevard ROCC (BF481602000) in Orange County, Acreage = 12.14609.
+Valencia Grove Brownfield Area (BF351601000) in Lake County, Acreage = 9.250561.
+1775 East Lake Mary Blvd Brownfield Area (BF591601000) in Seminole County, Acreage = 4.051719.
+Aquatic Townhomes Brownfield Area (BF161601000) in Duval County, Acreage = 1.674317
+
+These New Brownfield Areas added 33.473564 acres.</procdesc>
+                <procdate>20161202</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20161205</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 422 designated Brownfield Areas. 
+
+This update includes 10 New Areas:
+
+New Brownfield Areas:
+Universal Boulevard West ROCC (BF481603000) in Orange County, Acreage = 22.427264.
+Universal Boulevard East ROCC (BF481604000) in Orange County, Acreage = 34.343665.
+Noah’s Ark Brownfield Area (BF531601000) in Polk County, Acreage = 55.687705.
+Commerce Park Green Reuse Area (BF501603000) in Palm Beach County, Acreage = 10.55358.
+Liberty Tampa Property (BF291602000) in Hillsborough County, Acreage = 0.951508.
+261 South State Road 415 Area (BF641603000) in Volusia County, Acreage = 1.181643.
+St. Johns Village Brownfield Area (161602000) in Duval County, Acreage = 5.859201.
+Former Rood Landscape Green Reuse Area (BF501602000) in Palm Beach County, Acreage = 8.014622.
+Former Palm Aire Golf Course III Area (BF061604000) in Broward County, Acreage = 35.180959.
+Oakland Park Green Reuse Area (BF061603000) in Broward County, Acreage = 8.970794.
+
+These New Brownfield Areas added 183.170941 acres.</procdesc>
+                <procdate>20170109</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20170111</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 423 designated Brownfield Areas. 
+
+New Areas: 
+This update includes 2 New Areas, and 1 Brownfield Areas Removal.
+
+Willow Lake Apartments Green Reuse Area (BF131602000) in Miami-Dade County, Acreage = 10.015997.
+
+Dade City Downtown Brownfield Area #1 (BF511701000) in Miami-Dade County, Acreage = 3.535933.
+
+These New Brownfield Areas added 13.55193 acres.
+
+Area Removed:
+The Removal of BF010901000 The Phoenix Commercial Economic Enhancement District, in Alachua County, 
+removed a total of 61.683566 acres from the Brownfield _Areas Database on 20170224.</procdesc>
+                <procdate>20170330</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20170403</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 425 designated Brownfield Areas. This update includes 2 New Areas.
+
+Arbor View Apartments Brownfield Area (BF061701000) in Broward County, Acreage = 2.584122.
+
+Miroslav Mitusina Brownfield Area (BF291701000) in Hillsborough County, Acreage = 47.907225.
+
+These New Brownfield Areas added 50.491347 acres.</procdesc>
+                <procdate>20170427</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20170428</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 424 designated Brownfield Areas. 
+
+This update includes 1 Brownfield Areas Removal.
+
+Brownfield Area Removal:
+
+The Removal of BF081101000 Murdock Village Enhancement Zone, in Charlotte County, removed a total of 972.011915808 acres</procdesc>
+                <procdate>20170616</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20170619</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 429 designated Brownfield Areas. 
+
+New Areas: 
+Town of Esto Brownfield Area (BF301701000) in Holmes County, Acreage = 1068.7836.
+Brownsville Redevelopment Area (BF171103000) in Escambia County, Acreage = 1495.333347.
+Englewood Redevelopment Area (BF171104000) in Escambia County, Acreage = 1108.714649.
+Palafox Redevelopment Area (BF171105000) in Escambia County, Acreage = 1723.847692.
+Warrington Redevelopment Area (BF171106000) in Escambia County, Acreage = 2289.483619.
+
+These New Brownfield Sites added 7686.162907 acres.</procdesc>
+                <procdate>20170802</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20170803</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 433 designated Brownfield Areas. 
+New Areas: 
+BW Philips Bowden, LLC Brownfield Area (BF161701000) in Duval County, Acreage = 3.918958.
+Brixton Landing Green Reuse Area: ROCC (BF481703000) in Orange County, Acreage = 10.426763.
+Wellington Park Green Reuse Area: ROCC (BF481702000) in Orange County, Acreage = 11.922506.
+Pine Castle Urban Center: ROCC (BF481701000) in Orange County, Acreage = 558.599686.
+
+These New Brownfield Areas added 584.867913 acres.</procdesc>
+                <procdate>20170929</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20171003</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 436 designated Brownfield Areas. 
+
+This update includes 3 New Areas:
+
+New Areas: 
+Drummond Property Brownfield Area (BF531702000) in Polk County, Acreage = 17.807997.
+The Addison Green Reuse Area (BF411701000) in Manatee County, Acreage = 3.090178.
+Residences at Palm Aire Parcel C (BF061702000) in Broward County, Acreage = 11.75822.
+
+These New Brownfield Areas added 32.656395 acres.</procdesc>
+                <procdate>20171108</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library. Added a new field DOCUMENTS with links to related Brownfield documents in DepNexus application</procdesc>
+                <procdate>20171109</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 438 designated Brownfield Areas.
+
+This update includes 2 New Areas, 1 Brownfield Areas Removal:
+
+New Areas: 
+Orlando Economic Enhancement District – 1101 S. Orange (BF481704000) in Orange County, Acreage = 0.346252.
+San Marco Crossing Area (BF161702000) in Duval County, Acreage = 6.869487.
+These New Brownfield Areas added 7.215739 acres.
+
+Removal of Duplicate: 
+The removal of a duplicate for BF291602000 Liberty Tampa Property, in Hillsborough County, removed 0.951508 acres from the Brownfield_Areas Database on 20171129.</procdesc>
+                <procdate>20171129</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20171130</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 446 designated Brownfield Areas. 
+
+This update includes 8 New Areas:
+
+New Areas: 
+Cortona / Former Jai Alai Area (BF291704000) in Hillsborough County, Acreage = 13.130507.
+
+Jackson Street Parking Lot Brownfield Area (BF291702000) in Hillsborough County, Acreage = 1.033645.
+
+Former Florida Tile Brownfield Area (BF531703000) in Polk County, Acreage = 21.477869.
+
+BF291703000 Former Pitch Pine Lumber Site (BF291703000) in Hillsborough County, Acreage = 2.605874.
+
+NW 58th Street Corridor Green Reuse Area (BF131701000) in Miami-Dade County, Acreage = 257.623921.
+
+New Smyrna Beach Southern Section Brownfield Area (BF641702000) in Volusia County, Acreage = 229.667285.
+
+New Smyrna Beach Northern Section Brownfield Area (BF641701000) in Volusia County, Acreage = 102.118853.
+
+Colbert Lane Brownfield Area (BF181701000) in Flagler County, Acreage = 182.856782.
+
+
+These New Brownfield Areas added 810.514736 acres.</procdesc>
+                <procdate>20180105</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>8:15-4:45</hours>
+                        <cntinst>Email is preferred. Include your name, organization, date data is needed, and a brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20180110</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 450 designated Brownfield Areas. 
+ 
+
+This update includes 4 New Areas:
+
+New Areas: 
+North Dixie Highway Parcels Green Reuse Area (BF061801000) in Broward County, Acreage = 2.072414.
+West Lake Apartments Green Reuse Area (BF531701000) in Polk County, Acreage = 13.2348.
+Former Jones Chemical Site Brownfield Area (BF521303000) in Pinellas County, Acreage = 2.925632.
+Delphin Downs Green Reuse Area (BF171801000) in Escambia County, Acreage = 2.0615.
+
+These New Brownfield Areas added 36.184155 acres.</procdesc>
+                <procdate>20180226</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 459 designated Brownfield Areas. 
+This update includes 9 New Areas, and 1 Correction:
+
+New Areas: 
+Industrial Park Brownfield Area (BF051107000) in Brevard County, Acreage = 426.973536.
+Bobbi Lane Brownfield Area (BF051108000) in Brevard County, Acreage = 43.758397.
+Former Par 3 Green Reuse Area (BF131804000) in Miami-Dade County, Acreage = 22.30675. 
+Maurice Gibb Memorial Park Green Reuse Area (BF131803000) in Miami-Dade County, Acreage = 3.373914.
+Fleet Management Green Reuse Area (BF131802000) in Miami-Dade County, Acreage = 2.206049.
+Convention Center Green Reuse Area (BF131801000) in Miami-Dade County, Acreage = 70.819257. 
+Suncrest Court Green Reuse Area (BF061802000) in Broward County, Acreage = 8.510035.
+Wealthy Delight Brownfield Area (BF131702000) in Miami-Dade County, Acreage = 14.166688.
+Blue Humphrey Street Green Reuse Area (BF291801000) in Hillsborough County, Acreage = 6.144689.
+
+These New Brownfield Areas added 598.259628 acres.
+
+Areas Correction:
+Space Coast Regional Airport and Arthur Dunn Airpark Area (BF051102000) in Brevard County, Original Acreage = 1618.761896, and the correction added 99.528157 acres for a total of 1718.290053.</procdesc>
+                <procdate>20180718</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20180719</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 457 designated Brownfield Areas. 
+
+This update includes 3 New Areas, and 5 Areas Removed:
+
+New Areas:
+
+Aida Street Property (BF531602000) in Polk County, Acreage = 4.802011.
+
+Ocoee Downtown Brownfield Area (BF481801000) in Orange County, Acreage = 937.804621.
+
+Lake Alfred Northeast Economic Enhancement District (BF531301000) in Polk County, Acreage = 871.053333.
+
+These New Brownfield Areas added 1,813.65996 acres.
+
+
+Areas Removed:
+
+1915 Wigmore Street (Jacksonville Maritime Partners) (BF160505000) in Duval County, removed 88.48431 acres from the Brownfield_Areas Database on 20180816.
+
+5441 West 5th Street (BF161101000) in Duval County, removed 4.289131 acres from the Brownfield_Areas Database on 20180816.
+
+9225 Dames Point Road Area (BF161201000) in Duval County, removed 37.346592 acres from the Brownfield_Areas Database on 20180816.
+
+The Opportunity Project (BF160802000) in Duval County, removed 0.461814 acres from the Brownfield_Areas Database on 20180816.
+
+Tree Hills Nature Center (BF160801000) in Duval County, removed 21.319315 acres from the Brownfield_Areas Database on 20180816.
+
+The removal of these Brownfield Areas subtracted 151.901162 acres.</procdesc>
+                <procdate>20180816</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20180817</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 459 designated Brownfield Areas. 
+
+This update includes 2 New Areas, and 3 Expansions:
+
+New Areas:
+
+Bella Mara Road Brownfield Area (BF161703000) in Duval County, Acreage = 9.850123.
+
+Busbee Quarters Brownfield Area (BF420801000) in Marion County, Acreage = 74.870325.
+
+These New Brownfield Areas added 84.720448 acres.
+
+
+Expansion:   
+
+W.P.B. Downtown Northwood/Pleasant City CR Expanded Area (BF500402000) in Palm Beach County, Original Acreage = 25.8842, and the Expansion added 122.469615, for a total of 148.353815 acres.
+
+San Marco Crossing Area (BF161702000) in Duval County, Original Acreage = 6.869487, and the Expansion added 0.273064, for a total of 7.142551 acres.
+
+West Ocala Expansion Area (BF420501000) in Marion County, Original Acreage = 1015.42468, and the Expansion added 116.267793, for a total of 1131.692473 acres.
+
+The Expansions added 239.010472 Acres.</procdesc>
+                <procdate>20181106</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20181107</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 470 designated Brownfield Areas.
+
+
+This update includes 11 New Areas, 26 Corrections and 1 Expansion:
+
+New Areas:
+Northwest Blitchton Road Area (BF420802000) in Marion County, Acreage = 73.047594.
+1001 North Magnolia Ave. Brownfield Area (BF429904000) in Marion County, Acreage = 0.294944.
+Collins Park Garage Green Reuse Area (BF131805000) in Miami-Dade County, Acreage = 1.468819.
+Madison Street Park Brownfield Area (BF291802000) in Hillsborough County, Acreage = 0.916609.
+Century Village Brownfield Area (BF061803000) in Broward County, Acreage = 80.3118.
+Suarez Trust Brownfield Area (BF291804000) in Hillsborough County, Acreage = 19.144194.
+Former EZ Auto Sales Reuse Area (BF051801000) in Brevard County, Acreage = 0.983319.
+BW University Green Reuse Area (BF011801000) in Alachua County, Acreage = 1.648473.
+West River Development Brownfield Area (BF291803000) in Hillsborough County, Acreage = 115.229474.
+128 Airport Boulevard Brownfield Area (BF171802000) in Escambia County, Acreage = 35.833826.
+BW Pine Green Reuse Area (BF421801000) in Marion County, Acreage = 1.832294.
+
+These New Brownfield Areas added 330.711346 acres.
+
+
+Areas Correction:
+Ocala Area #7 (817 North Pine Avenue) (BF420101000) in Marion County, Original Acreage = 0.81973, and the Correction added 0.426441, for a total of 1.246171 acres.
+Ocala Area #3 (NW 10th Street) (BF429902000) in Marion County, Original Acreage = 3.16254, and the Correction added 0.237622, for a total of 3.400162 acres.
+West Ocala Expansion Area (BF420501000) in Marion County, Original Acreage = 1131.692473, and the Correction added 570.732838, for a total of 1702.425311 acres.
+Maricamp Brownfields Area (BF420901000) in Marion County, Original Acreage = 33.703196, and the Correction added 0.188737, for a total of 33.891933 acres.
+Ocala Area #2 (N Magnolia Ave) (BF429901000) in Marion County, Original Acreage = 2.00866, and the Correction added 3.111118, for a total of 5.119778 acres.
+Busbee Quarters Brownfield Area (BF420801000) in Marion County, Original Acreage = 74.870325, and the Correction added 0.805917, for a total of 75.676242 acres.
+Ocala Area #1 (BF429801000) in Marion County, Original Acreage = 262.32382, and the Correction subtracted 16.262597, for a total of 278.586417 acres.
+Southeast Brownfield Expansion Area (BF420502000) in Marion County, Original Acreage = 27.45548, and the Correction subtracted 0.204409, for a total of 27.659889 acres.
+Residences at Palm Aire Parcel C (BF061702000) in Broward County, Original Acreage = 11.75822, and the Correction added 4.999906, for a total of 16.758126 acres.
+North Dixie Highway Parcels Green Reuse Area (BF061801000) in Broward County, Original Acreage = 2.072414, and the Correction subtracted 0.137882, for a total of 1.934532 acres.
+Arbor View Apartments Brownfield Area (BF061701000) in Broward County, Original Acreage = 2.584122, and the Correction subtracted 0.072287, for a total of 2.511835 acres.
+Former Palm Aire Golf Course III Area (BF061604000) in Broward County, Original Acreage = 35.180959, and the Correction subtracted 0.16598, for a total of 35.014979 acres.
+Coral Springs Revitalization Zone (BF061501000) in Broward County, Original Acreage = 6.038781, and the Correction added 0.13844, for a total of 6.177221 acres.
+Turner Envirologic Area (BF060501000) in Broward County, Original Acreage = 4.68307, and the Correction subtracted 0.545178, for a total of 4.137892 acres.
+Pompano Beach Northwest Area BF069901000 in Broward County, Original Acreage = 2982.13875, and the Correction added 9.7091, for a total of 2991.84785 acres.
+Wisdom Village Crossing LP Brownfield Area (BF061602000) in Broward County, Original Acreage = 0.800634, and the Correction subtracted 0.033845, for a total of 0.766789 acres.
+Margate Economic Enhancement District (MEED) (BF061101000) in Broward County, Original Acreage = 1373.375264, and the Correction subtracted 796.627998, for a total of 576.747266 acres.
+Harbour Cove Brownfield Area (BF060401000) in Broward County, Original Acreage = 7.18176, and the Correction subtracted 0.834793, for a total of 6.346967 acres.
+MABB Dania Beach Brownfield Area (BF060302000) in Broward County, Original Acreage = 2.94576, and the Correction subtracted 2.312866, for a total of 0.632894 acres.
+Lauderdale Lakes Area (BF060002000) in Broward County, Original Acreage = 30.02468, and the Correction added 1.195162, for a total of 31.219842 acres.
+Miramar Area (BF060001000) in Broward County, Original Acreage = 8.35915, and the Correction added 1.175244, for a total of 9.534394 acres.
+Uniweld Products Area (BF060003000) in Broward County, Original Acreage = 8.76174, and the Correction added 0.377974, for a total of 9.139714 acres.
+Dania Beach Brownfield Area (BF060801000) in Broward County, Original Acreage = 1386.029973, and the Correction subtracted 34.684328, for a total of 1351.345645 acres.
+Dania Motocross Brownfield Area (BF060301000) in Broward County, Original Acreage = 13.14435, and the Correction subtracted 1.438851, for a total of 11.705499 acres.
+US 441/SR 7 Corridor (BF060201000) in Broward County, Original Acreage = 377.80503, and the Correction added 14.503748, for a total of 392.308778 acres.
+NW Gardens I Brownfield Area (BF061202000) in Broward County, Original Acreage = 5.835999, and the Correction added 0.619827, for a total of 6.455826 acres. 
+
+
+Expanded Area:
+Carol City Area (BF139902000) in Miami-Dade County, Original Acreage 3993.380482, and the Expansion added 3.105755, for a total of 3996.486237 acres.</procdesc>
+                <procdate>20190111</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20190122</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of  471 designated Brownfield Areas. 
+
+This update includes 1 New Area:
+
+The Opportunity Project (BF160802000) in Duval County, Acreage = 0.459139
+
+This new Brownfield Area added 0.459139 acres.</procdesc>
+                <procdate>20190215</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20190218</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of  474 designated Brownfield Areas. 
+
+This update includes 3 New Areas:
+
+New Areas:
+Coral Spring Economic Revitalization Zone Two Brownfield Area (BF061901000) in Broward County, Acreage = 16.157871.
+409 Anastasia Blvd. Brownfield Area (BF551901000) in St. Johns County, Acreage = 0.802284.
+JVS Land Holding Co., LLC Brownfield Area (BF291902000) in Hillsborough County, Acreage = 19.411969.
+
+These New Brownfield Areas added 36.372124 acres.</procdesc>
+                <procdate>20190416</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20190417</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of  476 designated Brownfield Areas. 
+
+This update includes 2 New Areas:
+
+New Areas:
+
+Johns Road and Sligh Avenue Brownfield Area (BF291901000) in Hillsborough County, Acreage = 19.207699.
+
+Parker Street Property Brownfield Area (BF531901000) in Polk County, Acreage = 1.896332.
+
+These New Brownfield Areas added 21.104031 acres.</procdesc>
+                <procdate>20190502</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20190506</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of  477 designated Brownfield Areas.
+
+This update includes 1 New Area:
+
+New Area:
+
+1389 Reed Canal Road Brownfield Area (BF641901000) in Volusia County, Acreage = 10.114216.
+
+These New Brownfield Areas added 10.114216 acres.</procdesc>
+                <procdate>20190628</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20190703</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 480 designated Brownfield Areas. 
+
+This update includes 3 New Areas and , 1 Correction:
+
+New Area:
+Minnie L. Rogers Brownfield Area (BF411603000) in Manatee County, Acreage = 3.43702.
+Bryant Commons at MLK Brownfield Area (BF411602000) in Manatee County, Acreage = 1.280414.
+Lincoln Village Brownfield Area (BF411601000) in Manatee County, Acreage = 1.587464.
+
+These New Brownfield Areas added 6.304898 acres.
+
+Areas Correction:
+North Dixie Highway Parcels Green Reuse Area (BF061801000) in Broward County, Original Acreage = 1.934532, and the Correction added 0.139043, for a total of 2.073575 acres</procdesc>
+                <procdate>20190729</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20190729</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 485 designated Brownfield Areas. 
+
+This update includes 5 New Areas:
+
+New Areas:
+Oaks at Lakeside Green Reuse Area (BF411901000) in Manatee County, Acreage = 15.894553.
+Cantonment CRA Brownfield Area (BF171904000) in Escambia County, Acreage = 2658.028325.
+Oakfield CRA Brownfield Area (BF171903000) in Escambia County, Acreage = 2293.409156.
+Ensley CRA Brownfield Area (BF171902000) in Escambia County, Acreage = 2437.661101.
+Atwood CRA Brownfield Area (BF171901000) in Escambia County, Acreage = 713.183907.
+
+These New Brownfield Areas added 8,118.177042 acres.</procdesc>
+                <procdate>20190828</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20190829</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library consists of 486 designated Brownfield Areas. This update includes 1 New Area:
+
+New Area:
+Blue Broadway Green Reuse Area (BF291903000) in Hillsborough County, Acreage = 23.224123.
+
+This New Brownfield Area added 23.224123 acres.</procdesc>
+                <procdate>20191003</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20191004</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 488 designated Brownfield Areas. 
+
+This update includes 2 New Areas:
+
+New Areas:
+Port of Ft. Pierce Brownfield Area (BF561901000) in St. Lucie County, Acreage = 13.300604.
+203 Bayou Woods Drive NW Brownfield Area (BF661301000) in Okaloosa County, Acreage = 6.82017.
+
+These New Brownfield Areas added 20.120774 acres.</procdesc>
+                <procdate>20191101</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20191105</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 499 designated Brownfield Areas. 
+
+This update includes 11 New Areas:
+
+New Areas:
+Poinciana Crossing Green Reuse Area (BF061908000) in Broward County, Acreage = 2.313784.
+Public Works Campus Green Reuse Area (BF061907000) in Broward County, Acreage = 9.183664.
+Hallandale First Brownfield Area (BF061905000) in Broward County, Acreage = 0.889815.
+Pinnacle at Peacefield Brownfield Area (BF061902000) in Broward County, Acreage = 5.532067.
+SM-Ruskin Brownfield Area (BF291905000) in Hillsborough County, Acreage = 19.454202.
+Colonade Park Brownfield Area (BF091901000) in Citrus County, Acreage = 8.631851.
+Belmont Porten Brownfield Area (BF061906000) in Broward County, Acreage = 4.369885.
+Hartford St. Properties LLC Brownfield Area (BF291904000) in Hillsborough County, Acreage = 69.799298.
+Strickland Property Brownfield Area (BF531902000) in Polk County, Acreage = 9.779535.
+Residences at Boca Dunes Green Reuse Area (BF501901000) in Palm Beach County, Acreage = 55.838137.
+Atlantic Village Green Reuse Area (BF061804000) in Broward County, Acreage = 2.523163.
+
+These New Brownfield Areas added 188.315401 acres.</procdesc>
+                <procdate>20200109</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20200110</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 500 designated Brownfield Areas.
+
+This update includes 1 New Area, and 1 Correction:
+
+New Area:
+St. Elizabeth Gardens Brownfield Area (BF061903000) in Broward County, Acreage = 6.7522.
+
+This New Brownfield Areas added 6.7522 acres.
+
+Areas Correction:
+203 Bayou Woods Drive NW Brownfield Area (BF661301000 changed to BF461301000). This Brownfield Correction was only a number change, and didn’t add or subtract any acreage.</procdesc>
+                <procdate>20200228</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>8:15-4:45</hours>
+                        <cntinst>Email is preferred. Include your name, organization, date data is needed, and a brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20200302</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update in the GIS library and consists of 501 designated Brownfield Areas. 
+
+This update includes 1 New Area:
+
+New Areas:
+The Quarry Development Green Reuse Area (BF442001000) in Monroe County, Acreage = 21.644524.
+
+This New Brownfield Areas added 21.644524 acres.</procdesc>
+                <procdate>20200324</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20200326</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for updated and consists of 506 designated Brownfield Areas
+
+  This update includes 5 New Areas
+ 
+  New Areas:
+  Village View Green Reuse Area (BF062001000) in Broward County, Acreage = 0.945167
+
+  Valencia II Green Reuse Area (BF352001000) in Lake County, Acreage = 8.209854.
+
+  Florida City CRA Green Reuse Area (BF132001000) in Miami-Dade County, Acreage = 1111.643971.
+
+  Lafayette Gardens Reuse Area (BF372001000) in Leon County, Acreage = 5.770026.
+
+  Seven of Seventh Green Reuse Area (BF062002000) in Broward County, Acreage = 0.929494.
+
+  These New Brownfield Areas added 1,127.498512 acres.</procdesc>
+                <procdate>20200729</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20200731</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update and consists of 510 designated Brownfield Areas
+
+This update includes 4 New Areas, 1 Expansion.
+
+  New Areas:
+  North Magnolia Community Redevelopment Area (BF422001000) in Marion County, Acreage = 430.895763.
+
+  American XVII, LLC Brownfield Area (BF292002000) in Hillsborough County, Acreage = 11.471735.
+
+  Colonnade Crosstown, LLC Brownfield Area (BF292001000) in Hillsborough County, Acreage = 156.384799.
+
+  Warley Park Brownfield Area (BF591901000) in Seminole County, Acreage = 4.532986.
+
+  These New Brownfield Areas added  603.285283 acres.</procdesc>
+                <procdate>20201001</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please email. It is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20201002</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update and consists of 513 designated Brownfield Areas.
+
+This update includes 3 New Areas, and 2 Corrections:
+
+New Areas:
+
+Sabal Trace Redevelopment Area (BF582001000) in Sarasota County, Acreage = 206.993403.
+
+Former Sandhill Golf Course Brownfield Area (BF642001000) in Volusia County, Acreage = 158.191003.
+
+Cutler Bay Civic and Resiliency Enhancement Zone (BF132002000) in Miami-Dade County, Acreage = 34.62736.
+
+These New Brownfield Areas added  399.811766 acres.
+
+Areas Corrections:
+
+Brownfield Number change from BF292001000, to BF292002000 Colonnade Crosstown, LLC Brownfield Area.
+
+BF Number and Name change from BF292002000  American XVII, LLC Brownfield Area, to BF292001000 5003 Dover Street Brownfield Area.</procdesc>
+                <procdate>20201201</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20201207</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Layer submitted for update and consists of 518 designated Brownfield Areas.This update includes 5 New Areas:
+
+New Areas:    
+
+Channel Club II Brownfield Area (BF292003000) in Hillsborough County, Acreage = 2.099104.
+
+Gracewater at SRQ Green Redevelopment Area (BF582002000) in Sarasota County, Acreage = 138.735044.
+
+Heritage Park at Crane Creek Green Reuse Area (BF052001000) in Broward County, Acreage = 15.076028.
+
+5000 Davie Green Reuse Area (BF062003000) in Broward County, Acreage = 3.82535.
+
+Village Grande Brownfield Area (BF592001000) in Seminole County, Acreage = 4.3109.
+
+These new Brownfield Areas added 164.046426 acres.</procdesc>
+                <procdate>20201223</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP-BWC</cntorg>
+                            <cntper>Billy McClain</cntper>
+                        </cntorgp>
+                        <cntpos>Office Automation Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Road</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8956</cntvoice>
+                        <cntemail>Billy.McClain@dep.state.fl.us</cntemail>
+                        <hours>9-5:30</hours>
+                        <cntinst>Please, email it is preferred. Include your name, organization, date data is needed, and brief description of what the data will be used for</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20201229</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>This update consists of 523 designated Brownfield Areas. 
+
+This update includes 5 New Areas:
+
+New Areas:    
+
+Miline at Ludlam Trail Green Reuse Area (BF132003000) in Miami-Dade County, Acreage = 3.990096
+
+Gracepoint Green Reuse Area (BF292004000) in Hillsborough County, Acreage = 2.505203.
+
+Jackson Crossings Phase II Green Reuse Area (BF412001000) in Manatee County, Acreage = 31.77568.
+
+Former Baypointe Golf Course Brownfield Area (BF522101000) in Pinellas County, Acreage = 42.854615.
+
+West San Sebastian Brownfield Area (BF552001000) in St. Johns County, Acreage = 133.90913.
+
+These new Brownfield Areas added 215.034724 acres.</procdesc>
+                <procdate>20210524</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP, Division of Waste Management, Brownfields and CERCLA Administration</cntorg>
+                            <cntper>Ginger Shirah</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8899</cntvoice>
+                        <cntemail>Ginger.K.Shirah@FloridaDEP.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20210528</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>This update consists of 529 designated Brownfield Areas. 
+
+This update includes 6 New Areas &amp; 1 Corrected Area:
+
+New Areas:    
+
+CBTS Green Reuse Area (BF132101000) 
+
+Blue Pinellas Brownfield Area (BF522102000) 
+
+Oak Royal Brownfield Area (BF482101000) 
+
+2000 Brunswick Lane Brownfield Area (BF642101000) 
+
+Palm Beach Rd &amp; NW 1st Ave Brownfield Area (BF502001000) 
+
+Brickell Fire Station Green Reuse Area (BF132102000)
+
+Corrected Area:
+
+Pine Hills ROCC (BF481301000)</procdesc>
+                <procdate>20210823</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP, Division of Waste Management, Brownfields and CERCLA Administration</cntorg>
+                            <cntper>Ginger Shirah</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8899</cntvoice>
+                        <cntemail>Ginger.K.Shirah@FloridaDEP.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20210824</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20211004</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>Florida</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>This update consists of 537 designated Brownfield Areas. 
+
+This update includes 6 New Areas:
+
+New Area:    
+
+South Riviera Investment No. 2 Brownfield Area (BF132103000) in Miami-Dade County, Acreage = 4.610603
+
+South Florida Baptist Hospital Economic Enhancement Area (BF292102000) in Hillsborough County, Acreage = 50.901469
+
+Independence Park Redevelopment Area (BF292103000) in Hillsborough County, Acreage = 45.50054
+
+Carr Landing Brownfield Area (BF412101000) in Manatee County, Acreage = 6.684343
+
+Miami Lakes Industrial Project (BF132104000) in Miami-Dade County, Acreage = 15.687098
+
+El-Ad Broward Plaza Green Reuse Area (BF062101000) in Broward County, Acreage = 8.177215
+
+These new Brownfield Areas added 131.561268 acres.</procdesc>
+                <procdate>20211203</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FDEP, Division of Waste Management, Brownfields and CERCLA Administration</cntorg>
+                            <cntper>Ginger Shirah</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist III</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>850-245-8899</cntvoice>
+                        <cntemail>Ginger.K.Shirah@FloridaDEP.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated data obtained from DWM and updated the same in the GIS library.</procdesc>
+                <procdate>20211207</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>537</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DEP.BROWNFIELD_AREAS</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>USERNAME</attrlabl>
+                <attrdef>USERNAME - Technician or analyst who processed the graphics for each feature in the spatial data layer</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DATESTAMP</attrlabl>
+                <attrdef>DATESTAMP - Date when the graphics were finished for each feature in the spatial data layer</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SOURCE</attrlabl>
+                <attrdef>SOURCE - Source of information and/or data for each feature in the spatial data layer</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>METHOD</attrlabl>
+                <attrdef>METHOD - Code to denote processing methodology for creating the graphics for each feature in the spatial data layer</attrdef>
+                <attrdefs>FDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>SHP</edomv>
+                                                						
+                        
+                        <edomvd>Graphic was copied and pasted from source shapefile(s)</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>PAPER</edomv>
+                                                						
+                        
+                        <edomvd>Graphic was heads up digitized from paper maps</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>AREA_ID</attrlabl>
+                <attrdef>AREA ID -  Brownfield Area ID assigned by the program as "BF" + "DEP county code (2 characters)" + "year of resolution date (two characters)" + "sequential area number for the specified county (2 characters)" + "000"</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AREA_NAME</attrlabl>
+                <attrdef>AREA_NAME - Name of the area designated by a local municipality by resolution as a designated brownfield area</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CITY</attrlabl>
+                <attrdef>CITY - Florida County in which the designated brownfield area lies</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>COUNTY - Florida County in which the designated brownfield area lies</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT</attrlabl>
+                <attrdef>DISTRICT - FDEP District in which the designated brownfield area lies.</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>RESOLUTION_NUMBER</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>RESOLUTION_DATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ACREAGE</attrlabl>
+                <attrdef>ACREAGE - Number of acres included within the designated brownfield area.</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>XCOORD</attrlabl>
+                <attrdef>X_COORDINATE</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>YCOORD</attrlabl>
+                <attrdef>Y_COORDINATE_NBR</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LATITUDE</attrlabl>
+                <attrdef>LATITUDE</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LONGITUDE</attrlabl>
+                <attrdef>LONGITUDE</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LAT_DD</attrlabl>
+                <attrdef>LAT_DD - LATITUDE - DEGREES LOCATION IDENTIFIER</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LAT_MM</attrlabl>
+                <attrdef>LAT_DD - LATITUDE - DEGREES LOCATION IDENTIFIER</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LAT_SS</attrlabl>
+                <attrdef>LAT_SS - LATITUDE - SECONDS LOCATION IDENTIFIER</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LONG_DD</attrlabl>
+                <attrdef>LONG_DD - LONGITUDE - DEGREES LOCATION IDENTIFIER</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LONG_MM</attrlabl>
+                <attrdef>LONG_MM - LONGITUDE - MINUTES LOCATION IDENTIFIER</attrdef>
+                <attrdefs>FDEP</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LONG_SS</attrlabl>
+                <attrdef>LONG_SS - LONGITUDE - SECONDS LOCATION IDENTIFIER</attrdef>
+                <attrdefs>DEP GIS DATA</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DOCUMENTS</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20211207</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd MS 6520</address>
+                    <city>Tallahassee</city>
+                    <state>Florida</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntemail>GIS.Librarian@FloridaDEP.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
